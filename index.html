@@ -51,6 +51,40 @@
                 Este foi o primeiro que desenvolvi, estudando front-end
             </p>
         </article>
+
+    </section id="habilidades">
+
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Habilidade</th> <!-- Coluna-Cabecalho 1 da tabela -->
+                    <th>Nível</th> <!-- Coluna-Cabecalho 2 da tabela -->
+                    <th>Descrição</th> <!-- Coluna-Cabecalho 3 da tabela -->
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Iniciante</td>
+                        <td>Capaz de construir estruturas de pãginas web semänticas e responsivas</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediário</td>
+                        <td>Experiência com flexbox, grid e animações CSS</td>
+
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Básico</td>
+                        <td>Conhecimento em manipulação do DOM e eventos</td>
+                </tbody>
+        </table>
+    <section>
+
     </section>
     <footer>
         <p>Direitos reservardos ao fulaninho</p>
@@ -62,6 +96,35 @@
                 E-mail: <a href="mailto:fulaninho@gmail.com">fulaninho@gmail.com</a> <br>
                 telefone: <a href="tel:+5548988257832">(48) 9 8825-7832</a>
             </address>
+
+            <form action="">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="projeto">Projeto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" cols="50" rows="4" required></textarea>
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Desejo me inscrever no newsletter</label>
+                <br>
+                <input type="submit" value="Enviar mensagem">
+            </form>
         </section>
     </footer>
 
